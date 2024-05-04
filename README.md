@@ -8,7 +8,10 @@ An end-to-end advanced table detection service for any generic document (irrespe
 The service comes in 2 packs:
 
 * **Streamlit WebApp**:
-    User Interface wherein user can upload any image which has table(s), and the app would detect and recognise the table structure (you can tune the parameters for better detection capabilities), which you can then download as CSV.
+    User Interface wherein user can upload any image which has table(s), and the app would detect and recognise the table structure *(you can tune the parameters for better detection capabilities)*, which you can then download as CSV.
+
+![streamlit_demo](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/30e0c33f-20df-4638-a978-ec5ad54d3412)
+  
 
 * **End to End orchestration pipeline**:
     The pipeline takes in an input feed of documents, converts their individual pages to images and then performs table detection and structure recognition on them in an asynchronous manner and all the detected tables are parsed as CSVs in the output.
