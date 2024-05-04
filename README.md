@@ -33,6 +33,8 @@ The service comes in 2 packs:
       ```
       streamlit run app.py --server.maxUploadSize=1028
       ```
+    ![1](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/af17cfa5-9d39-4d12-88b1-4984158d2af6)
+      
   * **Running the pipeline**:
       1. Clone this repository and install the dependencies as mentioned above.
       2. Navigate to `pipeline` directory and simply run the command: 
