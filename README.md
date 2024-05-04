@@ -45,6 +45,15 @@ The service comes in 2 packs:
       python pipeline.py
       ```
 
+### Some results:
+
+| Detected Table  | Parsed Table Output   |
+|-----------------|-----------------------|
+| ![1_det](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/f88d09d6-67c9-4f10-8c35-3219b72d66fb)  | ![1_csv](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/0fc4177e-6e7a-4fd1-a527-fcc0a78de7da)  |
+| ![2_det](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/5a37cdcb-1f0c-4d2b-8672-b3c827be7731) | ![2_csv](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/21dbdfd6-340a-434d-8de1-f0820d54cb0a)  |
+| ![3_det](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/4acefb7a-9640-4cde-b38f-ff78d78ab538)  | ![3_csv](https://github.com/prateekralhan/document-table-detection-service/assets/29462447/dda63b80-06ca-45d5-9775-6eccb2282d81)  |
+
+
 ### Running the Dockerized WebApp
 1. Ensure you have Docker Installed and Setup in your OS (Windows/Mac/Linux). For detailed Instructions, please refer [this.](https://docs.docker.com/engine/install/)
 2. Navigate to the folder where you have cloned this repository ( where the ***Dockerfile*** is present ).
