@@ -1,0 +1,4 @@
+,GPT-2-Small,AdamW,mW,0.1,1,6e-4,-4 0.1,.1,4k/400k
+0,narch-GPT-2-Small,AdamW,mW,0.1,1,6e-4,0.C,.0,4k/400k
+1,GPT-2-Medium,AdamW,mW,0.1,1,1.5e-4,e-4 0.1,1,4k/400k
+2,areh.CPT.9.Medinm,Adaml,mW,n1,1,,RA,n,
