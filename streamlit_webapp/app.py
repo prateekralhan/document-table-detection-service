@@ -22,8 +22,8 @@ from transformers import DetrImageProcessor, TableTransformerForObjectDetection
 
 warnings.filterwarnings("ignore")
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-#ocr = PaddleOCR(use_angle_cls=True, lang="en", use_gpu=False)
-ocr = PaddleOCR(use_angle_cls=True, lang="german", use_gpu=False)
+
+ocr = PaddleOCR(use_angle_cls=True, lang="en", use_gpu=False)
 
 st.set_page_config(
     page_title="Table Recognition",
