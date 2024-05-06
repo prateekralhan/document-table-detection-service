@@ -634,7 +634,6 @@ if __name__ == "__main__":
     print('*-'*25)
     print("\nCOMPLETED...")
     print('*-'*25)
-    t2=time.perf_counter()
     print("-" * 40)
     image_ctr = "1 image" if file_count == 1 else f"{file_count} images"
     print(f"Processed {image_ctr}")
