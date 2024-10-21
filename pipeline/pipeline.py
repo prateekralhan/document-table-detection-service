@@ -26,6 +26,9 @@ warnings.filterwarnings("ignore")
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 timestr=time.strftime("%Y.%m.%d-%H.%M.%S")
+
+# PaddleOCR supported languages:
+# https://paddlepaddle.github.io/PaddleOCR/main/en/ppocr/blog/multi_languages.html#5-support-languages-and-abbreviations
 ocr = PaddleOCR(use_angle_cls=True, lang="en", use_gpu=False)
 
 table_detection_model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-detection")
